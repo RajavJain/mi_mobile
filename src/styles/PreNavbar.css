@@ -1,0 +1,11 @@
+.preNav{
+    background-color: rgb(224, 210, 210);
+    display:grid;
+    grid-template-columns: 5fr 2fr;
+    color: white;
+}
+.prenNav div {
+        padding: 0 4vmax;
+        display: flex;
+        align-items: center;
+}
