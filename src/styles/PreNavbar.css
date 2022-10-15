@@ -1,7 +1,7 @@
 .preNav{
     background-color: rgb(29, 28, 28);
     display:grid;
-    grid-template-columns: 5fr 2fr;
+    grid-template-columns: 5fr 2fr; /*it will divide the div it the ratio of 5:2 */
     color: white;
 }
 
