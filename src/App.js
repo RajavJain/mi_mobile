@@ -15,7 +15,7 @@ function App() {
           <Navbar/>
           <Slider start={data.banner.start} />
           <Offers offer={data.offer} />
-          <Heading/>
+          <Heading text= "STAR PRODUCTS"/> {/* isko hamne isliye banaya hai kyuki aage 2 sections aur banege to usme phir se use kr lenge aur text mai props bheje hai ye... don't be confused*/}
     </Router>
 
   );
