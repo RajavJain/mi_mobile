@@ -8,6 +8,7 @@ import data from "./data/data.json"
 import Offers from "./components/Offers.js"
 import Heading from "./components/Heading.js"
 import StarProducts from "./components/StarProducts.js"
+import HotAccesoriesMenu from "./components/HotAccesoriesMenu.js"
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
           <Offers offer={data.offer} />
           <Heading text= "STAR PRODUCTS"/> {/* isko hamne isliye banaya hai kyuki aage 2 sections aur banege to usme phir se use kr lenge aur text mai props bheje hai ye... don't be confused*/}
           <StarProducts starProduct={data.starProduct}/>
+          <Heading text= "HOT ACCESORIES"/>
+          <HotAccesoriesMenu/>
     </Router>
 
   );
