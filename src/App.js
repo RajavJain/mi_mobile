@@ -10,6 +10,7 @@ import Heading from "./components/Heading.js"
 import StarProducts from "./components/StarProducts.js"
 import HotAccesoriesMenu from "./components/HotAccesoriesMenu.js"
 import HotAccessories from "./components/HotAccessories.js"
+import ProductReviews from "./components/ProductReviews.js"
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
       <HotAccesoriesMenu />
 
       <Routes>
-        <Route exact path="/music" element={<HotAccessories music={data.hotAccessories.music} musicCover={data.hotAccessoriesCover.music}/>}>    {/*isme hamne exact keyword diya hai, agar nhi dete then /music/song bhi hota tabhi ye data render hota  */}
+        <Route exact path="/music" element={<HotAccessories music={data.hotAccessories.music} musicCover={data.hotAccessoriesCover.music} />}>    {/*isme hamne exact keyword diya hai, agar nhi dete then /music/song bhi hota tabhi ye data render hota  */}
           {/* <HotAccessories music={data.hotAccessories.music} musicCover={data.hotAccessoriesCover.music} /> */}
         </Route>
 
@@ -33,18 +34,23 @@ function App() {
           {/* <HotAccessories smartDevice={data.hotAccessories.smartDevice} smartDeviceCover={data.hotAccessoriesCover.smartDevice} /> */}
         </Route>
 
-        <Route exact path="/home" element={<HotAccessories home={data.hotAccessories.home} homeCover={data.hotAccessoriesCover.home}/>}>
+        <Route exact path="/home" element={<HotAccessories home={data.hotAccessories.home} homeCover={data.hotAccessoriesCover.home} />}>
           {/* <HotAccessories home={data.hotAccessories.home} homeCover={data.hotAccessoriesCover.home} /> */}
         </Route>
 
-        <Route exact path="/lifestyle" element={<HotAccessories lifeStyle={data.hotAccessories.lifeStyle} lifeStyleCover={data.hotAccessoriesCover.lifeStyle}/>}>
+        <Route exact path="/lifestyle" element={<HotAccessories lifeStyle={data.hotAccessories.lifeStyle} lifeStyleCover={data.hotAccessoriesCover.lifeStyle} />}>
           {/* <HotAccessories lifeStyle={data.hotAccessories.lifeStyle} lifeStyleCover={data.hotAccessoriesCover.lifeStyle} /> */}
         </Route>
-        
-        <Route exact path="/mobileAccessories" element={<HotAccessories mobileAccessories={data.hotAccessories.mobileAccessories} mobileAccessoriesCover={data.hotAccessoriesCover.mobileAccessories}/>}>
+
+        <Route exact path="/mobileAccessories" element={<HotAccessories mobileAccessories={data.hotAccessories.mobileAccessories} mobileAccessoriesCover={data.hotAccessoriesCover.mobileAccessories} />}>
           {/* <HotAccessories mobileAccessories={data.hotAccessories.mobileAccessories} mobileAccessoriesCover={data.hotAccessoriesCover.mobileAccessories} /> */}
         </Route>
       </Routes>
+      <Heading text="PRODUCT REVIEWS" />
+
+      <ProductReviews productReviews={data.productReviews} />
+
+      <Heading text="IN THE PRESS" />
 
     </Router>
 
