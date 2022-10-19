@@ -14,6 +14,9 @@ import ProductReviews from "./components/ProductReviews.js"
 import Videos from "./components/Videos.js"
 import Banner from "./components/Banner.js"
 import Footer from "./components/Footer.js"
+import NavOptios from "./components/NavOptios.js"
+
+ 
 
 function App() {
   return (
@@ -21,6 +24,8 @@ function App() {
     <Router>
       <PreNavbar />
       <Navbar />
+      <NavOptios miPhones={data.miPhones} redmiPhones={data.redmiPhones} tv={data.tv} laptop={data.laptop} fitnessAndLifeStyle={data.fitnessAndLifeStyle} home={data.home} audio={data.audio}  accessories={data.accessories}/>
+
       <Slider start={data.banner.start} />
       <Offers offer={data.offer} />
       <Heading text="STAR PRODUCTS" /> {/* isko hamne isliye banaya hai kyuki aage 2 sections aur banege to usme phir se use kr lenge aur text mai props bheje hai ye... don't be confused*/}
