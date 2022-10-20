@@ -24,10 +24,12 @@ function App() {
     <Router>
       <PreNavbar />
       <Navbar />
+      {/* ye jo Navoptios hai, ye navOption.js m anchor tag se connected hai...   */}
       <NavOptios miPhones={data.miPhones} redmiPhones={data.redmiPhones} tv={data.tv} laptop={data.laptop} fitnessAndLifeStyle={data.fitnessAndLifeStyle} home={data.home} audio={data.audio}  accessories={data.accessories}/>
 
+      {/* Ye sab jitne bhi hai as a props send kr rahe hai hum */}
       <Slider start={data.banner.start} />
-      <Offers offer={data.offer} />
+      <Offers offer={data.offer} /> 
       <Heading text="STAR PRODUCTS" /> {/* isko hamne isliye banaya hai kyuki aage 2 sections aur banege to usme phir se use kr lenge aur text mai props bheje hai ye... don't be confused*/}
       <StarProducts starProduct={data.starProduct} />
       <Heading text="HOT ACCESORIES" />
@@ -57,7 +59,7 @@ function App() {
       <Heading text="PRODUCT REVIEWS" />
 
       <ProductReviews productReviews={data.productReviews} />
-
+      {/* See here we arre using heading again anad again with repeating the same line of code */}
       <Heading text="VIDEOS"/>
 
       <Videos videos={data.videos} />

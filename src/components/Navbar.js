@@ -11,6 +11,7 @@ const Navbar = () => {
     <div className='nav'>
 
       <div className="logo"> 
+      
         <a href='/'> 
           <img id="logoImage" src={logo} alt="Logo" />
          </a> {/*link use karne par website reload nhi hoti ye alternative hai anchor tag ka, just replace acchor to link and hred to "to"} */}
