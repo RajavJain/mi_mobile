@@ -4,21 +4,25 @@ Link for the website :- https://mimobile.netlify.app/
 
 # Checkout the ScreenShot of the Website
 
-![SS]([http://url/to/img.png](https://github.com/RajavJain/mi_mobile/blob/master/public/1.png))
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
-![SS]([http://url/to/img.png](https://github.com/RajavJain/mi_mobile/blob/master/public/2.png))
 
-![SS]([http://url/to/img.png](https://github.com/RajavJain/mi_mobile/blob/master/public/3.png))
+![SS](https://github.com/RajavJain/mi_mobile/blob/master/public/1.png?raw=true)
 
-![SS]([http://url/to/img.png](https://github.com/RajavJain/mi_mobile/blob/master/public/4.png))
+![SS](https://github.com/RajavJain/mi_mobile/blob/master/public/2.png?raw=true)
 
-![SS]([http://url/to/img.png](https://github.com/RajavJain/mi_mobile/blob/master/public/5.png))
+![SS](https://github.com/RajavJain/mi_mobile/blob/master/public/3.png?raw=true)
 
-![SS]([http://url/to/img.png](https://github.com/RajavJain/mi_mobile/blob/master/public/6.png))
+![SS](https://github.com/RajavJain/mi_mobile/blob/master/public/4.png?raw=true)
 
-![SS]([http://url/to/img.png](https://github.com/RajavJain/mi_mobile/blob/master/public/7.png))
+![SS](https://github.com/RajavJain/mi_mobile/blob/master/public/5.png?raw=true)
 
-![SS]([http://url/to/img.png](https://github.com/RajavJain/mi_mobile/blob/master/public/8.png))
+![SS](https://github.com/RajavJain/mi_mobile/blob/master/public/6.png?raw=true)
+
+![SS](https://github.com/RajavJain/mi_mobile/blob/master/public/7.png?raw=true)
+
+![SS](https://github.com/RajavJain/mi_mobile/blob/master/public/8.png?raw=true)
+
 
 
 # Getting Started with Create React App
