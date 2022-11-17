@@ -2,6 +2,25 @@
 
 Link for the website :- https://mimobile.netlify.app/
 
+# Checkout the ScreenShot of the Website
+
+![SS]([http://url/to/img.png](https://github.com/RajavJain/mi_mobile/blob/master/public/1.png))
+
+![SS]([http://url/to/img.png](https://github.com/RajavJain/mi_mobile/blob/master/public/2.png))
+
+![SS]([http://url/to/img.png](https://github.com/RajavJain/mi_mobile/blob/master/public/3.png))
+
+![SS]([http://url/to/img.png](https://github.com/RajavJain/mi_mobile/blob/master/public/4.png))
+
+![SS]([http://url/to/img.png](https://github.com/RajavJain/mi_mobile/blob/master/public/5.png))
+
+![SS]([http://url/to/img.png](https://github.com/RajavJain/mi_mobile/blob/master/public/6.png))
+
+![SS]([http://url/to/img.png](https://github.com/RajavJain/mi_mobile/blob/master/public/7.png))
+
+![SS]([http://url/to/img.png](https://github.com/RajavJain/mi_mobile/blob/master/public/8.png))
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
