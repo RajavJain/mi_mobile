@@ -4,9 +4,6 @@ Link for the website :- https://mimobile.netlify.app/
 
 # Checkout the ScreenShot of the Website
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
-
-
 ![SS](https://github.com/RajavJain/mi_mobile/blob/master/public/1.png?raw=true)
 
 ![SS](https://github.com/RajavJain/mi_mobile/blob/master/public/2.png?raw=true)
